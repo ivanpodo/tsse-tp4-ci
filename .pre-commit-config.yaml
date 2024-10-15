@@ -12,3 +12,4 @@ repos:
     hooks:
       - id: clang-format
         name: Formating C files with Clang-Format
+        args: [--style=file]
