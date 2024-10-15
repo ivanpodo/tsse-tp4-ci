@@ -21,3 +21,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 
 clean:
 	@rm -r $(OUT_DIR)
+
+doc:
+	@mkdir -p $(OUT_DIR)
+	@doxygen doxyfile
